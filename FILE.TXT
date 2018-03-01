@@ -1,0 +1,53 @@
+STORE "ΣF" with any value
+STORE "m" with any value
+STORE "a" with any value
+CALCULATE "m*a"
+SET "ΣF" value with calculate result
+DISPLAY "ΣF"
+END
+
+
+STORE "TAHUN" with 0
+STORE "TAHUN KABISAT" with 0
+STORE "BUKAN TAHUN KABISAT" with 0
+
+if TAHUN % 4 = 0;
+   then
+       if TAHUN % 100 is 0
+           then
+           if TAHUN modulo 400 is 0
+                   then TAHUN KABISAT
+                       
+               else
+                   BUKAN TAHUN KABISAT
+       else TAHUN KABISAT
+else BUKAN TAHUN KABISAT
+END
+
+
+STORE "LAUNDRY" with 0
+
+WHILE "STOP" <= 20
+  ADD "LAUNDRY" by 1
+
+DISPLAY "STOP"
+END
+
+
+store KUKU PANJANG to 0
+
+store KUKU PENDEK to 0
+
+store SISWA = 1
+
+while SISWA <= to 40
+
+store CEK KUKU SISWA
+if SISWA 
+
+	add KUKU PANJANG to one
+	display HUKUM
+else
+
+	display PUJI
+	END WHILE
