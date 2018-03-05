@@ -1,14 +1,12 @@
-var nama = prompt (`masukkan sebuah nama`);
-var peran = prompt (`masukkan sebuah peran`);
+var nama = "Yoyo";
+var peran = "Miracle";
 
-if ((nama === ``) && (peran === ``)) {
+if (nama === ``) {
 console.log(`nama harus diisi!`);
 }  else if ((nama == "Niko") &&( peran === "")) {
-    console.log(nama +"  Pilih peranmu untuk memulai game!")
-    }
-  else if ((nama === "Nina" )&&( peran === "Fighter"))
-  
-  {
+    console.log(nama +"  Pilih peranmu untuk memulai game!");
+  }
+  else if ((nama === "Nina" )&&( peran === "Fighter")) {
     console.log("Selamat datang di Dunia Proxytia", nama);
     console.log("Halo", nama + ` ` + peran);
     console.log("kamu dapat menyerang dengan senjatamu!");
