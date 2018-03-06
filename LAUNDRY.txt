@@ -1,0 +1,7 @@
+STORE "LAUNDRY" with 0
+
+WHILE "STOP" <= 20
+  ADD "LAUNDRY" by 1
+
+DISPLAY "STOP"
+END

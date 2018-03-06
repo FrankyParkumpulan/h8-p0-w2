@@ -1,0 +1,18 @@
+store KUKU PANJANG to 0
+
+store KUKU PENDEK to 0
+
+store SISWA = 1
+
+while SISWA <= to 40
+
+store CEK KUKU SISWA
+if SISWA 
+
+	add KUKU PANJANG to one
+	display HUKUM
+else
+
+	add KUKU PENDEK to one
+	display PUJI
+	END

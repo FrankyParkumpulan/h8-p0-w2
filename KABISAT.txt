@@ -1,0 +1,16 @@
+STORE "TAHUN" with 0
+STORE "TAHUN KABISAT" with 0
+STORE "BUKAN TAHUN KABISAT" with 0
+
+if TAHUN modulo 4 is 0
+   then
+       if TAHUN modulo 100 is 0
+           then
+               if TAHUN modulo 400 is 0
+                   then TAHUN KABISAT
+                       
+               else
+                   BUKAN TAHUN KABISAT
+       else TAHUN KABISAT
+else BUKAN TAHUN KABISAT
+END
