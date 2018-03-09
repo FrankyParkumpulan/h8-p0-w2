@@ -1,22 +1,22 @@
 function mengelompokkanAngka(arr) {
-  var new = [];
+  var angkaBaru = [];
   
   for(var i=0; i<3; i++){
-    new.push([]);
+    angkaBaru.push([]);
   }
   
   for(var j = 0; j < arr.length; j++){
     if(arr[j] % 3 === 0){
-      new[2].push(arr[j]);
+      angkaBaru[2].push(arr[j]);
     } else if(arr[j] % 2 !== 0){
-      new[1].push(arr[j]);
+      angkaBaru[1].push(arr[j]);
     } else if(arr[j] % 2 === 0){
-      new[0].push(arr[j]);
+      angkaBaru[0].push(arr[j]);
     }
     // console.log(arr[j]);
   }
   
-  return newArray;
+  return angkaBaru;
 }
 
 // TEST CASES
